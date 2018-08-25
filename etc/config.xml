@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageBR_Newrelicfix>
+            <version>0.1.0</version>
+        </MageBR_Newrelicfix>
+    </modules>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <MageBR_Newrelicfix before="Mage_Adminhtml">MageBR_Newrelicfix_Adminhtml</MageBR_Newrelicfix>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>
